@@ -38,12 +38,6 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 
-
-nnoremap tn :<C-u>tabnew<CR>
-nnoremap th :<C-u>tabprev<CR>
-nnoremap tl :<C-u>tabnext<CR>
-nnoremap tc :<C-u>tabclose<CR>
-
 nnoremap wh <C-u>h
 nnoremap wj <C-u>j
 nnoremap wk <C-u>k
@@ -63,6 +57,12 @@ nnoremap tt <C-]>
 nnoremap tj :<C-u>tag<CR>
 nnoremap tk :<C-u>pop<CR>
 nnoremap tl :<C-u>tags<CR>
+
+" tab control
+nnoremap tn :<C-u>tabnew<CR>
+nnoremap th :<C-u>tabprev<CR>
+nnoremap tl :<C-u>tabnext<CR>
+nnoremap tc :<C-u>tabclose<CR>
 
 " script " {{{1
 function! InsertTabWrapper()
