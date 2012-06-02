@@ -58,7 +58,11 @@ nnoremap n nzzzv
 nnoremap N Nzzzv
 
 " tag jump while screen is active
-nnoremap <C-z> <C-t>
+nnoremap t <Nop>
+nnoremap tt <C-]>
+nnoremap tj :<C-u>tag<CR>
+nnoremap tk :<C-u>pop<CR>
+nnoremap tl :<C-u>tags<CR>
 
 " script " {{{1
 function! InsertTabWrapper()
