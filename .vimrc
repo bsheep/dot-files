@@ -4,6 +4,7 @@ set foldmethod=marker
 
 "Basic " {{{1
 set nocompatible
+set noundofile
 sy on
 
 set number
